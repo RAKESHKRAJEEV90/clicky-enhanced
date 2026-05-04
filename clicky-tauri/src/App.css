@@ -1,0 +1,129 @@
+.logo.vite:hover {
+  filter: drop-shadow(0 0 2em #747bff);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafb);
+}
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #0f0f0f;
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.header {
+  padding: 12px;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  -webkit-app-region: drag; /* Allows moving frameless window */
+}
+
+.header h1 {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.header button {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  -webkit-app-region: no-drag;
+}
+
+.chat-container {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.message {
+  padding: 10px 14px;
+  border-radius: 8px;
+  max-width: 85%;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+.message.user {
+  background: #007aff;
+  color: white;
+  align-self: flex-end;
+  border-bottom-right-radius: 2px;
+}
+
+.message.assistant {
+  background: #f1f1f1;
+  color: black;
+  align-self: flex-start;
+  border-bottom-left-radius: 2px;
+}
+
+.loading {
+  font-style: italic;
+  opacity: 0.6;
+}
+
+.input-form {
+  display: flex;
+  padding: 12px;
+  border-top: 1px solid #eaeaea;
+  gap: 8px;
+  background: #fafafa;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.input-form input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.input-form input:focus {
+  border-color: #007aff;
+}
+
+.input-form button {
+  padding: 8px 16px;
+  background: #007aff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.input-form button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.provider-select { background: #333; color: white; border: 1px solid #555; border-radius: 6px; padding: 4px 8px; font-size: 12px; cursor: pointer; outline: none; -webkit-app-region: no-drag; }
