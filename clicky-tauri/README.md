@@ -85,6 +85,9 @@ Because the frontend is built with React and Vite, you can easily host it as a s
 3. You can deploy the `dist` folder to any static hosting provider like Vercel, Netlify, Cloudflare Pages, or GitHub Pages.
 
 ## Recommended IDE Setup
+
+- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+
 ## Acknowledgments
 
 A special thanks to the original creator of **Clicky** for the inspiration and foundation. This project is a cross-platform version derived directly from the original macOS-only Clicky application.
@@ -93,4 +96,3 @@ A special thanks to the original creator of **Clicky** for the inspiration and f
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
